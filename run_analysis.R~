@@ -1,0 +1,4 @@
+library(tidyverse)
+path <- "./UCI\ HAR\ Dataset/"
+
+X_train <- read.table(file = paste0(path,"train/X_train.txt"),sep = "  ")
